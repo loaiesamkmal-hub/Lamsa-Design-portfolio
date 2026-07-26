@@ -951,3 +951,18 @@ img{
 *{
     box-sizing:border-box;
 }
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1c76fc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: gap 0.3s ease;  
+
+}
+
+.project-link:hover {
+    gap:0.75rem;
+}
